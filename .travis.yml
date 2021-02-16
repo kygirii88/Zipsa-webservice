@@ -32,7 +32,7 @@ deploy:
     access_key_id: $AWS_ACCESS_KEY # Travis repo settings에 설정된 값
     secret_access_key: $AWS_SECRET_KEY # Travis repo settings에 설정된 값
     bucket: zipsa-webservice-build # S3버킷
-    key: zipsa-webservice.zip #빌드 파일을 압축해서 전달
+    key: Zipsa-webservice.zip #빌드 파일을 압축해서 전달
     bundle_type: zip # 압축파일 확장자
     application: zipsa-webservice # 웹 콘솔에서 등록한 CodeDeploy 애플리케이션
     deployment_group: zipsa-webservice-group # 웹 콘솔에서 등록한 CodeDeploy 배포그룹
